@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Daisy_Grow
+  m_Name: Bee_3
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,15 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: a318dfdd61cc12847925ab77f3d53d9a, type: 3}
+      value: {fileID: 21300000, guid: 7e71ed5afc81dc243a0c6437ba1d018f, type: 3}
     - time: 0.033333335
-      value: {fileID: 21300000, guid: d6a9e7a6ed3fec54ebe408150feb8cb1, type: 3}
+      value: {fileID: 21300000, guid: b833de40e00501e41ae658574c099ba5, type: 3}
     - time: 0.06666667
-      value: {fileID: 21300000, guid: 89bc081fde3124845a907a4a74ff1c2f, type: 3}
+      value: {fileID: 21300000, guid: 9a9b3237980eb88448ff3fdebb0107ba, type: 3}
     - time: 0.1
-      value: {fileID: 21300000, guid: e05264ecefd461042863b1a2cf3d740d, type: 3}
+      value: {fileID: 21300000, guid: 92754bf7a391b4f4d99a1fb611956880, type: 3}
+    - time: 0.13333334
+      value: {fileID: 21300000, guid: 44ee7dc94b3fdc04bacd54489948be6d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,7 +48,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.11666667
+    m_StopTime: 0.15
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
