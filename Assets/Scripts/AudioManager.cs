@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
+
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Inst { get; private set; }
@@ -26,6 +27,7 @@ public class AudioManager : MonoBehaviour
 		for (int i = 0; i < sounds.Count; i++) {
 			SoundsDictionary.Add(sounds[i].name, sounds[i].audio);
 		}
+		DontDestroyOnLoad(this.gameObject);
 	}
 
 	private void Start() {
