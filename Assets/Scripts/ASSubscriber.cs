@@ -9,6 +9,7 @@ public class ASSubscriber : MonoBehaviour
 
 	private void Start() {
 		audioS = GetComponentsInChildren<AudioSource>();
+		if (AudioManager.Inst == null) return;
 		for (int i = 0; i < audioS.Length; i++) {
 			AudioManager.Inst.SubscribeSFXAudio(audioS[i]);
 			audioS[i].volume *= volumeMultipler;
