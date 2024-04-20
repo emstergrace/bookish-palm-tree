@@ -2743,18 +2743,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bee4
       objectReference: {fileID: 0}
-    - target: {fileID: 7110981304948615564, guid: 639d40e740af29245bb1cdd8e0ef3025, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 9147091968439277136, guid: 639d40e740af29245bb1cdd8e0ef3025, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 9147091968439277136, guid: 639d40e740af29245bb1cdd8e0ef3025, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.11
-      objectReference: {fileID: 0}
     - target: {fileID: 9147091968439277136, guid: 639d40e740af29245bb1cdd8e0ef3025, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.79
@@ -3071,6 +3059,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: d57044fbf1b1c954c9b65b358544c3dd, type: 2}
+    - target: {fileID: 1503947843293536763, guid: ecc2b22efb68fc34a92a4e37ac75d024, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1593589495951203364, guid: ecc2b22efb68fc34a92a4e37ac75d024, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Clicked
@@ -4707,26 +4699,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bee1
       objectReference: {fileID: 0}
-    - target: {fileID: 1959748464836680328, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1959748464836680328, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1959748464836680328, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8614282883648690154, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8614282883648690154, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.11
-      objectReference: {fileID: 0}
+    - target: {fileID: 5665953581058449788, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 625246543}
+    - target: {fileID: 5665953581058449788, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1113292300}
+    - target: {fileID: 5665953581058449788, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 387232796}
     - target: {fileID: 8614282883648690154, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.71
@@ -4770,13 +4754,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 116678399022342120, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2030720398}
-    - targetCorrespondingSourceObject: {fileID: 116678399022342120, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2030720397}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
 --- !u!1 &1552872163
 GameObject:
@@ -4944,8 +4922,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 65887553}
   m_HandleRect: {fileID: 65887552}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.9999997
+  m_Value: 0
+  m_Size: 0.99999976
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5080,21 +5058,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -6356517104879063980, guid: 23476c9bbff1e6a4da23d78b7b32c89c, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 204314408393068213, guid: 23476c9bbff1e6a4da23d78b7b32c89c, type: 3}
       propertyPath: m_Name
       value: Bee3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7332302480893508796, guid: 23476c9bbff1e6a4da23d78b7b32c89c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 7332302480893508796, guid: 23476c9bbff1e6a4da23d78b7b32c89c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 7332302480893508796, guid: 23476c9bbff1e6a4da23d78b7b32c89c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6316,43 +6282,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 116678399022342120, guid: c80ef1b85ffd5124b9bafd3643889db9, type: 3}
   m_PrefabInstance: {fileID: 1545528771}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2030720397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030720393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 23267310128447e44a50a724c02dfdb6, type: 2}
---- !u!114 &2030720398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030720393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GameController","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HiveLoc","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Dialogue","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 625246543}
-    - {fileID: 1113292300}
-    - {fileID: 387232796}
 --- !u!1 &2069378553
 GameObject:
   m_ObjectHideFlags: 0
