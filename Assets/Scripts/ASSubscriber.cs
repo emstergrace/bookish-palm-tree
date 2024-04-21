@@ -19,7 +19,14 @@ public class ASSubscriber : MonoBehaviour
 
 	private void AdjustVolume(float val) {
 		for (int i = 0; i < audioS.Length; i++) {
-			audioS[i].volume = val * volumeMultipler;
+			if (audioS[i] != null)
+				audioS[i].volume = val * volumeMultipler;
+		}
+	}
+
+	private void OnDestroy() {
+		for (int i = 0; i < audioS.Length; i++) {
+			AudioManager.Inst.UnsubscribeSFXAudio(audioS[i]);
 		}
 	}
 }

@@ -47,7 +47,8 @@ public class AudioManager : MonoBehaviour
 	public void SetSoundLevel(float level) {
 		soundVolume = level;
 		foreach(AudioSource source in sceneAudio) {
-			source.volume = soundVolume;
+			if (source != null)
+				source.volume = soundVolume;
 		}
 		foreach (KeyValuePair<string, AudioSource> keys in SoundsDictionary) {
 			if (keys.Value != null)
