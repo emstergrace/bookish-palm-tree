@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 62655301}
   - component: {fileID: 62655300}
   m_Layer: 5
-  m_Name: Image
+  m_Name: PeonyObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1400,7 +1400,7 @@ GameObject:
   - component: {fileID: 140642226}
   - component: {fileID: 140642225}
   m_Layer: 5
-  m_Name: Image
+  m_Name: TulipObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3133,6 +3133,10 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BeeTeeLoc2","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HiveObject","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HyacinthObject","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LilacsObject","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PrimroseObject","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PionyObject","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TulipObject","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 560188628}
@@ -3143,6 +3147,10 @@ MonoBehaviour:
     - {fileID: 692381537}
     - {fileID: 1332677263}
     - {fileID: 2109403543}
+    - {fileID: 1702743528}
+    - {fileID: 1500699736}
+    - {fileID: 62655298}
+    - {fileID: 140642223}
 --- !u!4 &625246546
 Transform:
   m_ObjectHideFlags: 0
@@ -6402,7 +6410,7 @@ GameObject:
   - component: {fileID: 1500699739}
   - component: {fileID: 1500699738}
   m_Layer: 5
-  m_Name: Image
+  m_Name: PrimroseObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7631,7 +7639,7 @@ GameObject:
   - component: {fileID: 1702743531}
   - component: {fileID: 1702743530}
   m_Layer: 5
-  m_Name: Image
+  m_Name: LilacObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9479,7 +9487,7 @@ GameObject:
   - component: {fileID: 2109403546}
   - component: {fileID: 2109403545}
   m_Layer: 5
-  m_Name: Image
+  m_Name: HyacinthObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
